@@ -8,9 +8,9 @@
 
 1. 검색어 지정 : srcText = '월드컵'
 2. 뉴스 검색하기 : getNaverSearch() 호출
-  2.1.  url 구성 : url = base + node + srcText
-  2.2.  url 접속과 검색 요청하기 : urllib.request.urlopen()
-  2.3.  요청 결과를 응답 JSON으로 받기 : json.load()
+    1. url 구성 : url = base + node + srcText
+    2. url 접속과 검색 요청하기 : urllib.request.urlopen()
+    3. 요청 결과를 응답 JSON으로 받기 : json.load()
 3. 응답 데이터 정리 후 리스트에 저장 : getPostData()
 4. 리스트를 JSON 파일로 저장 : json.dumps()
 
